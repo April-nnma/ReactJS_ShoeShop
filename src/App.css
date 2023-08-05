@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+/* 
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +33,40 @@
   to {
     transform: rotate(360deg);
   }
+} */
+/* Custom CSS styles for ProductItem component */
+.App {
+  text-align: center;
+}
+
+.custom-btn-outline {
+  padding: 10px 20px;
+  border: 2px solid #33ffff;
+  border-radius: 30px;
+  color: #0099ff;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.custom-btn-outline:hover {
+  background-color: #33ff66;
+  color: #fff;
+  box-shadow: 0 0 10px #33ffff;
+}
+
+.custom-btn-details {
+  padding: 10px 20px;
+  border: 2px solid #3399ff;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #3399ff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.custom-btn-details:hover {
+  background-color: #0099ff;
+  color: #fff;
+  box-shadow: 0 0 10px #0099ff;
 }
